@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineRecommend - Seu Guia de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>CineRecommend</h1>
+        <p>Encontre o filme perfeito para assistir hoje</p>
+    </header>
+
+    <div class="filters-container">
+        <div class="filter-group">
+            <label for="genreFilter">Gênero</label>
+            <select id="genreFilter">
+                <option value="all">Todos os Gêneros</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label for="yearFilter">Ano de Lançamento</label>
+            <select id="yearFilter">
+                <option value="all">Todos os Anos</option>
+            </select>
+        </div>
+    </div>
+
+    <main class="movies-grid" id="moviesGrid">
+        </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
